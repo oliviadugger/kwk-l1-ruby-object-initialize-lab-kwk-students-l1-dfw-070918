@@ -1,8 +1,8 @@
 # person.rb
 # dog.rb
 class Person
- 
-  def name=(person_name)
+  attr_reader :name
+  def initialize name=(person_name)
     @name = person_name
   end
 end
