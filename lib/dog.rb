@@ -6,4 +6,3 @@ class Dog
 end
 
 fido = dog.new
-puts dog
