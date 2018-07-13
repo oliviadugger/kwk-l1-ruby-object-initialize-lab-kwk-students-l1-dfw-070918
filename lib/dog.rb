@@ -1,3 +1,4 @@
 # dog.rb
-class Person
-  def initialize
+class Dog
+  def initialize(name)
+    @name = dog_name
